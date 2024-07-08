@@ -1,1 +1,11 @@
-
+PASSWORDLESS LOGIN--
+--> generally, two ways to login into managed nodes 1)password 2)ssh keys
+ANSIBLE INVENTORY--
+-->file contains user name and ip addresses
+-->can be written in2 ways 1)inventory.ini eg: in noraml file we write ubuntu@12.33.222.222(managed nodes) 2)yaml--/etc/ansible/hosts
+-----------------------
+commands--1)playbook 2)ad-hoc commands
+-----------------
+Yaml--- why?? we can give input in -- txt format ,yaml format, json format
+(to check --yaml lint)
+starts with ---(3 iphens)
