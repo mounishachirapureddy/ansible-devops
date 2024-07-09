@@ -9,3 +9,6 @@ commands--1)playbook 2)ad-hoc commands
 Yaml--- why?? we can give input in -- txt format ,yaml format, json format
 (to check --yaml lint)
 starts with ---(3 iphens)
+--------
+playbook is collection of plays which contains tasks containing modules(commands)(eg:ansible.builtin.apt--to install)
+become: true -->run with a root user
