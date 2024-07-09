@@ -12,3 +12,12 @@ starts with ---(3 iphens)
 --------
 playbook is collection of plays which contains tasks containing modules(commands)(eg:ansible.builtin.apt--to install)
 become: true -->run with a root user
+---------
+ANSIBLE GALAXY--market place for ansible roles
+command-- ansible-galaxy role -h <command>
+          ls ~/.ansible/roles-->to check the installed roles
+how to upload from your git repository to ansible galaxy ??
+commands--
+----------------------
+ROLES
+ansible-galaxy role init test
