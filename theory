@@ -21,3 +21,12 @@ commands--
 ----------------------
 ROLES
 ansible-galaxy role init test
+----------------
+gathering facts-- y??
+idempotent---- characterstic of ansible ---??if something is created it will not recreate (changed=0)
+---------
+creating resources in aws--- talking to apis---collections
+you needto have boto3 in control node to talk to amazon apis
+--------
+ANSIBLE VAULT --->{{----CONTENT----}}
+VARS-- PRECEDENCE
